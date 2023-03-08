@@ -1,14 +1,14 @@
 /* 1. exercice-1 */
 .exercice-1 .container {
-  display:flex;
+  display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
   justify-content: space-around;
 }
 
 /* 2. exercice-2 */
 .exercice-2 .container {
-  display:flex;
+  display: flex;
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-content:center;
+  align-content: center;
   justify-content: space-around;
 }
 
@@ -37,13 +37,14 @@ order: -1;
 }
 
 .exercice-4 .element-pink {
-  order:1;
+  order: 1;
   align-self: flex-start;
 }
 
 .exercice-4 .element-blue {
-  order:2;
+  order: 2;
 }
+
 /* 5. exercice-5 */
 .exercice-5 .container {
   display: flex;
@@ -67,7 +68,7 @@ order: -1;
 /* 7. exercice-7 */
 .exercice-7 .container {
   display: flex;
-  flex-flow:column-reverse wrap-reverse;
+  flex-flow: column-reverse wrap-reverse;
   align-content: center;
   align-items: center;
   justify-content: space-between;
@@ -81,7 +82,6 @@ order: -1;
 .exercice-8 .container {
   display: flex;
   flex-flow: row wrap;
-
   align-items: baseline;
   align-content: center;
 }
@@ -89,6 +89,10 @@ order: -1;
 .exercice-8 .element-pink {
   order: 1;
   flex-grow: 1;
+}
+
+.exercice-8 .element-yellow {
+  flex-grow: 2;
 }
 
 /* 9. exercice-9 */
@@ -105,7 +109,7 @@ order: -1;
 
 /* 10. exercice-10 */
 .exercice-10 .container {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
