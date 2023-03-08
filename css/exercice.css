@@ -65,6 +65,17 @@ order: -1;
 }
 
 /* 7. exercice-7 */
+.exercice-7 .container {
+  display: flex;
+  flex-flow:column-reverse wrap-reverse;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exercice-7 .element-green {
+  align-self: flex-end;
+}
 
 /* 8. exercice-8 */
 .exercice-8 .container {
