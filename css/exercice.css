@@ -81,6 +81,16 @@ order: -1;
 }
 
 /* 9. exercice-9 */
+.exercice-9 .container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+}
+
+.exercice-9 .element {
+  width: 50%;
+  box-sizing: border-box;
+}
 
 /* 10. exercice-10 */
 .exercice-10 .container {
