@@ -33,6 +33,12 @@
   order:2;
 }
 /* 5. exercice-5 */
+.exercice-5 .container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+}
 
 /* 6. exercice-6 */
 
